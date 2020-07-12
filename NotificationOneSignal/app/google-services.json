@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "772327347753",
+    "firebase_url": "https://onesignalapp-70f0b.firebaseio.com",
+    "project_id": "onesignalapp-70f0b",
+    "storage_bucket": "onesignalapp-70f0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772327347753:android:7903c856fbb84035da6e38",
+        "android_client_info": {
+          "package_name": "org.a.notificationonesignal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772327347753-t9do9p826usahjjosquf0j1drg2rm2b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.a.notificationonesignal",
+            "certificate_hash": "c52f1ca9b277dd2e5d32edefb922a254322db833"
+          }
+        },
+        {
+          "client_id": "772327347753-5i5p4a355rmfannmotfeoaollot0ruh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6C3-B4jWGG33OQG5rFxetqZf3M_5Ndg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772327347753-5i5p4a355rmfannmotfeoaollot0ruh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_chat_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/msg_profile_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/image_message_profile"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/shape" />
+
+        <TextView
+            android:id="@+id/left_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/image_message_profile"
+            android:text="NAME  "
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/chat_left_msg_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/shape"
+            android:maxWidth="240dp"
+            android:padding="8dp"
+            android:text="messgae message message"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/left_DateTime_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="time "
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
